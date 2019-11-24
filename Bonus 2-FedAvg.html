@@ -15038,7 +15038,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="k">import</span> <span class="n">datasets</span>
@@ -15064,20 +15064,6 @@ div#notebook {
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\Users\lethe\AppData\Roaming\Python\Python36\site-packages\numpy\_distributor_init.py:32: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\lethe\AppData\Roaming\Python\Python36\site-packages\numpy\.libs\libopenblas.PYQHXLVVQ7VESDPUVUADXEVJOBGHJPAY.gfortran-win_amd64.dll
-C:\Users\lethe\AppData\Roaming\Python\Python36\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
-  stacklevel=1)
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Shape of x: (768, 8)
 Shape of y: (768,)
@@ -15091,7 +15077,7 @@ Shape of y: (768,)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># partition the data to training and test sets</span>
@@ -15142,7 +15128,7 @@ Shape of y_test: (153, 1)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Standardization</span>
@@ -15181,11 +15167,11 @@ Shape of y_test: (153, 1)
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>test mean = 
-[[-0.02726128 -0.0621378  -0.12718054 -0.03883657 -0.07921074 -0.05555954
-  -0.1017034  -0.04051427]]
+[[-0.00311435 -0.12084268  0.00871926  0.06154376 -0.02217566 -0.02109403
+  -0.04367158 -0.11682423]]
 test std = 
-[[0.9791821  0.96491735 1.0641366  0.98457913 0.98112447 0.94847799
-  0.7434573  0.95430056]]
+[[0.96822157 0.81799794 0.95104219 1.01035258 0.944407   0.89851066
+  0.95513109 0.88249853]]
 </pre>
 </div>
 </div>
@@ -15196,7 +15182,7 @@ test std =
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_train</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="n">x_train</span><span class="o">.</span><span class="n">shape</span>
@@ -15235,7 +15221,7 @@ Shape of x_test: (153, 9)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#worker</span>
@@ -15306,7 +15292,7 @@ Shape of x_test: (153, 9)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#server</span>
@@ -15376,7 +15362,7 @@ Shape of x_test: (153, 9)
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -15393,7 +15379,7 @@ Shape of x_test: (153, 9)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
@@ -15417,7 +15403,7 @@ Shape of x_test: (153, 9)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="mi">4</span>
@@ -15431,7 +15417,7 @@ Shape of x_test: (153, 9)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#GD with q = 1</span>
@@ -15488,106 +15474,106 @@ Shape of x_test: (153, 9)
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>At epoch 0, Objective function value = 0.67151045442937
-At epoch 1, Objective function value = 0.6280467149687894
-At epoch 2, Objective function value = 0.5963092066343679
-At epoch 3, Objective function value = 0.5725635569723901
-At epoch 4, Objective function value = 0.5543732187291126
-At epoch 5, Objective function value = 0.5401456123450104
-At epoch 6, Objective function value = 0.528818517911527
-At epoch 7, Objective function value = 0.5196647921155385
-At epoch 8, Objective function value = 0.5121734003666621
-At epoch 9, Objective function value = 0.5059762800279425
-At epoch 10, Objective function value = 0.5008024321358436
-At epoch 11, Objective function value = 0.4964483865418017
-At epoch 12, Objective function value = 0.4927587206450023
-At epoch 13, Objective function value = 0.4896128993522912
-At epoch 14, Objective function value = 0.48691618577885526
-At epoch 15, Objective function value = 0.48459323438670093
-At epoch 16, Objective function value = 0.4825834902863522
-At epoch 17, Objective function value = 0.4808378292692232
-At epoch 18, Objective function value = 0.47931606603039056
-At epoch 19, Objective function value = 0.4779850803014615
-At epoch 20, Objective function value = 0.4768173896764103
-At epoch 21, Objective function value = 0.4757900500160725
-At epoch 22, Objective function value = 0.47488379926449703
-At epoch 23, Objective function value = 0.47408238434061106
-At epoch 24, Objective function value = 0.4733720272698485
-At epoch 25, Objective function value = 0.47274099831151273
-At epoch 26, Objective function value = 0.47217927208931854
-At epoch 27, Objective function value = 0.47167824868061425
-At epoch 28, Objective function value = 0.4712305259576375
-At epoch 29, Objective function value = 0.47082971267234436
-At epoch 30, Objective function value = 0.4704702741584794
-At epoch 31, Objective function value = 0.4701474043158869
-At epoch 32, Objective function value = 0.46985691890124004
-At epoch 33, Objective function value = 0.46959516618934727
-At epoch 34, Objective function value = 0.4693589518712584
-At epoch 35, Objective function value = 0.4691454756785627
-At epoch 36, Objective function value = 0.46895227771084647
-At epoch 37, Objective function value = 0.46877719282727937
-At epoch 38, Objective function value = 0.4686183117675947
-At epoch 39, Objective function value = 0.4684739479103
-At epoch 40, Objective function value = 0.4683426087703607
-At epoch 41, Objective function value = 0.46822297149524644
-At epoch 42, Objective function value = 0.4681138617450513
-At epoch 43, Objective function value = 0.4680142354455764
-At epoch 44, Objective function value = 0.4679231629875533
-At epoch 45, Objective function value = 0.467839815514356
-At epoch 46, Objective function value = 0.4677634529975247
-At epoch 47, Objective function value = 0.4676934138465361
-At epoch 48, Objective function value = 0.4676291058383558
-At epoch 49, Objective function value = 0.46756999818486217
-At epoch 50, Objective function value = 0.46751561458343666
-At epoch 51, Objective function value = 0.4674655271188015
-At epoch 52, Objective function value = 0.46741935090335646
-At epoch 53, Objective function value = 0.4673767393594091
-At epoch 54, Objective function value = 0.46733738006034586
-At epoch 55, Objective function value = 0.46730099105936507
-At epoch 56, Objective function value = 0.46726731764421287
-At epoch 57, Objective function value = 0.4672361294647408
-At epoch 58, Objective function value = 0.46720721798724363
-At epoch 59, Objective function value = 0.4671803942356468
-At epoch 60, Objective function value = 0.4671554867848572
-At epoch 61, Objective function value = 0.4671323399760861
-At epoch 62, Objective function value = 0.4671108123278308
-At epoch 63, Objective function value = 0.4670907751195396
-At epoch 64, Objective function value = 0.46707211112787456
-At epoch 65, Objective function value = 0.4670547134979801
-At epoch 66, Objective function value = 0.46703848473433623
-At epoch 67, Objective function value = 0.4670233357976493
-At epoch 68, Objective function value = 0.46700918529587737
-At epoch 69, Objective function value = 0.46699595875890265
-At epoch 70, Objective function value = 0.46698358798761586
-At epoch 71, Objective function value = 0.4669720104692555
-At epoch 72, Objective function value = 0.46696116885180144
-At epoch 73, Objective function value = 0.4669510104710485
-At epoch 74, Objective function value = 0.4669414869247231
-At epoch 75, Objective function value = 0.4669325536886399
-At epoch 76, Objective function value = 0.4669241697704643
-At epoch 77, Objective function value = 0.46691629739714147
-At epoch 78, Objective function value = 0.4669089017324898
-At epoch 79, Objective function value = 0.4669019506218445
-At epoch 80, Objective function value = 0.46689541436097404
-At epoch 81, Objective function value = 0.46688926548680065
-At epoch 82, Objective function value = 0.4668834785877146
-At epoch 83, Objective function value = 0.46687803013151685
-At epoch 84, Objective function value = 0.46687289830922646
-At epoch 85, Objective function value = 0.46686806289318367
-At epoch 86, Objective function value = 0.4668635051080359
-At epoch 87, Objective function value = 0.4668592075133498
-At epoch 88, Objective function value = 0.466855153896716
-At epoch 89, Objective function value = 0.46685132917633587
-At epoch 90, Objective function value = 0.46684771931217733
-At epoch 91, Objective function value = 0.46684431122488723
-At epoch 92, Objective function value = 0.46684109272172136
-At epoch 93, Objective function value = 0.4668380524288357
-At epoch 94, Objective function value = 0.4668351797293424
-At epoch 95, Objective function value = 0.4668324647065968
-At epoch 96, Objective function value = 0.4668298980922336
-At epoch 97, Objective function value = 0.46682747121851553
-At epoch 98, Objective function value = 0.46682517597460543
-At epoch 99, Objective function value = 0.4668230047664053
+<pre>At epoch 0, Objective function value = 0.6714813226829517
+At epoch 1, Objective function value = 0.6284182782111913
+At epoch 2, Objective function value = 0.5969809386829724
+At epoch 3, Objective function value = 0.5734497771840849
+At epoch 4, Objective function value = 0.5554008318790075
+At epoch 5, Objective function value = 0.541255422275489
+At epoch 6, Objective function value = 0.5299647537294814
+At epoch 7, Objective function value = 0.5208133292164281
+At epoch 8, Objective function value = 0.5132996099138416
+At epoch 9, Objective function value = 0.5070630041748821
+At epoch 10, Objective function value = 0.5018382622882264
+At epoch 11, Objective function value = 0.4974262693980415
+At epoch 12, Objective function value = 0.4936748582983455
+At epoch 13, Objective function value = 0.4904658939056184
+At epoch 14, Objective function value = 0.48770638003419964
+At epoch 15, Objective function value = 0.4853222068848921
+At epoch 16, Objective function value = 0.4832536706735645
+At epoch 17, Objective function value = 0.4814522069756027
+At epoch 18, Objective function value = 0.4798779710945622
+At epoch 19, Objective function value = 0.4784980198648684
+At epoch 20, Objective function value = 0.4772849273596213
+At epoch 21, Objective function value = 0.47621571826195974
+At epoch 22, Objective function value = 0.47527103696143636
+At epoch 23, Objective function value = 0.47443449376499974
+At epoch 24, Objective function value = 0.47369214572477203
+At epoch 25, Objective function value = 0.4730320808759401
+At epoch 26, Objective function value = 0.4724440826981476
+At epoch 27, Objective function value = 0.47191935738284235
+At epoch 28, Objective function value = 0.4714503106882629
+At epoch 29, Objective function value = 0.47103036425436273
+At epoch 30, Objective function value = 0.4706538035484331
+At epoch 31, Objective function value = 0.4703156513383034
+At epoch 32, Objective function value = 0.47001156189824833
+At epoch 33, Objective function value = 0.46973773215288894
+At epoch 34, Objective function value = 0.46949082673522563
+At epoch 35, Objective function value = 0.4692679145336561
+At epoch 36, Objective function value = 0.4690664147712065
+At epoch 37, Objective function value = 0.4688840510291312
+At epoch 38, Objective function value = 0.46871881191951864
+At epoch 39, Objective function value = 0.4685689173448138
+At epoch 40, Objective function value = 0.46843278946931394
+At epoch 41, Objective function value = 0.468309027678638
+At epoch 42, Objective function value = 0.46819638692554755
+At epoch 43, Objective function value = 0.46809375896020927
+At epoch 44, Objective function value = 0.4680001560245839
+At epoch 45, Objective function value = 0.4679146966577257
+At epoch 46, Objective function value = 0.46783659331414834
+At epoch 47, Objective function value = 0.4677651415433109
+At epoch 48, Objective function value = 0.4676997105164613
+At epoch 49, Objective function value = 0.467639734718941
+At epoch 50, Objective function value = 0.4675847066527571
+At epoch 51, Objective function value = 0.46753417041666434
+At epoch 52, Objective function value = 0.4674877160499089
+At epoch 53, Objective function value = 0.4674449745417772
+At epoch 54, Objective function value = 0.46740561342264614
+At epoch 55, Objective function value = 0.46736933286375054
+At epoch 56, Objective function value = 0.467335862222707
+At epoch 57, Objective function value = 0.4673049569802163
+At epoch 58, Objective function value = 0.46727639602055115
+At epoch 59, Objective function value = 0.4672499792145981
+At epoch 60, Objective function value = 0.4672255252695246
+At epoch 61, Objective function value = 0.46720286981370746
+At epoch 62, Objective function value = 0.4671818636895068
+At epoch 63, Objective function value = 0.46716237142987627
+At epoch 64, Objective function value = 0.46714426989776436
+At epoch 65, Objective function value = 0.4671274470698216
+At epoch 66, Objective function value = 0.46711180094816723
+At epoch 67, Objective function value = 0.4670972385859087
+At epoch 68, Objective function value = 0.4670836752138065
+At epoch 69, Objective function value = 0.46707103345695955
+At epoch 70, Objective function value = 0.46705924263167875
+At epoch 71, Objective function value = 0.46704823811385826
+At epoch 72, Objective function value = 0.46703796077114623
+At epoch 73, Objective function value = 0.46702835645209395
+At epoch 74, Objective function value = 0.46701937552623285
+At epoch 75, Objective function value = 0.4670109724697051
+At epoch 76, Objective function value = 0.4670031054916737
+At epoch 77, Objective function value = 0.4669957361972623
+At epoch 78, Objective function value = 0.4669888292832446
+At epoch 79, Objective function value = 0.46698235226311147
+At epoch 80, Objective function value = 0.46697627521851237
+At epoch 81, Objective function value = 0.4669705705743887
+At epoch 82, Objective function value = 0.46696521289540294
+At epoch 83, Objective function value = 0.46696017870152506
+At epoch 84, Objective function value = 0.46695544630085994
+At epoch 85, Objective function value = 0.46695099563800285
+At epoch 86, Objective function value = 0.46694680815638945
+At epoch 87, Objective function value = 0.46694286667326407
+At epoch 88, Objective function value = 0.46693915526603336
+At epoch 89, Objective function value = 0.46693565916889945
+At epoch 90, Objective function value = 0.4669323646787791
+At epoch 91, Objective function value = 0.4669292590696161
+At epoch 92, Objective function value = 0.46692633051428495
+At epoch 93, Objective function value = 0.46692356801336526
+At epoch 94, Objective function value = 0.46692096133013644
+At epoch 95, Objective function value = 0.4669185009312083
+At epoch 96, Objective function value = 0.4669161779322631
+At epoch 97, Objective function value = 0.4669139840484313
+At epoch 98, Objective function value = 0.46691191154887574
+At epoch 99, Objective function value = 0.46690995321519563
 </pre>
 </div>
 </div>
@@ -15598,7 +15584,7 @@ At epoch 99, Objective function value = 0.4668230047664053
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="mi">4</span>
@@ -15612,7 +15598,7 @@ At epoch 99, Objective function value = 0.4668230047664053
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#GD with q = 8</span>
@@ -15665,106 +15651,106 @@ At epoch 99, Objective function value = 0.4668230047664053
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>At epoch 0, Objective function value = 0.559034195415556
-At epoch 1, Objective function value = 0.49182009367343654
-At epoch 2, Objective function value = 0.47289362159596526
-At epoch 3, Objective function value = 0.46537304920312283
-At epoch 4, Objective function value = 0.46207728944543375
-At epoch 5, Objective function value = 0.46065348761272173
-At epoch 6, Objective function value = 0.46013224459149427
-At epoch 7, Objective function value = 0.4600610664568753
-At epoch 8, Objective function value = 0.46021227895145295
-At epoch 9, Objective function value = 0.4604661040828121
-At epoch 10, Objective function value = 0.4607581727273364
-At epoch 11, Objective function value = 0.46105393791537197
-At epoch 12, Objective function value = 0.46133540912288096
-At epoch 13, Objective function value = 0.46159394729510894
-At epoch 14, Objective function value = 0.46182621406250524
-At epoch 15, Objective function value = 0.46203183788015934
-At epoch 16, Objective function value = 0.4622120485885007
-At epoch 17, Objective function value = 0.4623688735241604
-At epoch 18, Objective function value = 0.46250466604563023
-At epoch 19, Objective function value = 0.46262183363977155
-At epoch 20, Objective function value = 0.46272268678905376
-At epoch 21, Objective function value = 0.46280936097504616
-At epoch 22, Objective function value = 0.4628837826586035
-At epoch 23, Objective function value = 0.4629476612303194
-At epoch 24, Objective function value = 0.46300249577204994
-At epoch 25, Objective function value = 0.4630495897269257
-At epoch 26, Objective function value = 0.4630900692449225
-At epoch 27, Objective function value = 0.463124902654008
-At epoch 28, Objective function value = 0.46315491956902116
-At epoch 29, Objective function value = 0.46318082881848854
-At epoch 30, Objective function value = 0.4632032347859491
-At epoch 31, Objective function value = 0.46322265201750423
-At epoch 32, Objective function value = 0.4632395180992434
-At epoch 33, Objective function value = 0.46325420489429525
-At epoch 34, Objective function value = 0.4632670282737715
-At epoch 35, Objective function value = 0.46327825649452353
-At epoch 36, Objective function value = 0.4632881173795931
-At epoch 37, Objective function value = 0.46329680445109406
-At epoch 38, Objective function value = 0.46330448215420755
-At epoch 39, Objective function value = 0.4633112902976432
-At epoch 40, Objective function value = 0.4633173478219695
-At epoch 41, Objective function value = 0.46332275599358663
-At epoch 42, Objective function value = 0.46332760110936966
-At epoch 43, Objective function value = 0.4633319567853993
-At epoch 44, Objective function value = 0.46333588589283575
-At epoch 45, Objective function value = 0.4633394421948509
-At epoch 46, Objective function value = 0.46334267173057775
-At epoch 47, Objective function value = 0.4633456139851402
-At epoch 48, Objective function value = 0.4633483028789071
-At epoch 49, Objective function value = 0.4633507676040391
-At epoch 50, Objective function value = 0.46335303333207184
-At epoch 51, Objective function value = 0.4633551218126067
-At epoch 52, Objective function value = 0.46335705188005194
-At epoch 53, Objective function value = 0.46335883988272414
-At epoch 54, Objective function value = 0.46336050004637735
-At epoch 55, Objective function value = 0.46336204478234516
-At epoch 56, Objective function value = 0.46336348494888574
-At epoch 57, Objective function value = 0.46336483007297596
-At epoch 58, Objective function value = 0.4633660885386665
-At epoch 59, Objective function value = 0.4633672677471586
-At epoch 60, Objective function value = 0.46336837425295047
-At epoch 61, Objective function value = 0.46336941387973174
-At epoch 62, Objective function value = 0.4633703918191252
-At epoch 63, Objective function value = 0.4633713127148957
-At epoch 64, Objective function value = 0.4633721807348414
-At epoch 65, Objective function value = 0.46337299963223616
-At epoch 66, Objective function value = 0.46337377279840514
-At epoch 67, Objective function value = 0.4633745033077723
-At epoch 68, Objective function value = 0.4633751939565099
-At epoch 69, Objective function value = 0.46337584729574977
-At epoch 70, Objective function value = 0.46337646566016705
-At epoch 71, Objective function value = 0.46337705119262185
-At epoch 72, Objective function value = 0.46337760586544685
-At epoch 73, Objective function value = 0.46337813149886686
-At epoch 74, Objective function value = 0.4633786297769781
-At epoch 75, Objective function value = 0.4633791022616353
-At epoch 76, Objective function value = 0.4633795504045542
-At epoch 77, Objective function value = 0.46337997555788296
-At epoch 78, Objective function value = 0.4633803789834626
-At epoch 79, Objective function value = 0.4633807618609602
-At epoch 80, Objective function value = 0.4633811252950342
-At epoch 81, Objective function value = 0.4633814703216665
-At epoch 82, Objective function value = 0.4633817979137742
-At epoch 83, Objective function value = 0.46338210898620114
-At epoch 84, Objective function value = 0.46338240440017103
-At epoch 85, Objective function value = 0.4633826849672737
-At epoch 86, Objective function value = 0.46338295145304614
-At epoch 87, Objective function value = 0.46338320458019927
-At epoch 88, Objective function value = 0.46338344503153645
-At epoch 89, Objective function value = 0.46338367345260156
-At epoch 90, Objective function value = 0.4633838904540883
-At epoch 91, Objective function value = 0.4633840966140416
-At epoch 92, Objective function value = 0.4633842924798729
-At epoch 93, Objective function value = 0.463384478570212
-At epoch 94, Objective function value = 0.46338465537661283
-At epoch 95, Objective function value = 0.46338482336512904
-At epoch 96, Objective function value = 0.4633849829777737
-At epoch 97, Objective function value = 0.4633851346338734
-At epoch 98, Objective function value = 0.4633852787313288
-At epoch 99, Objective function value = 0.46338541564778984
+<pre>At epoch 0, Objective function value = 0.561376133626252
+At epoch 1, Objective function value = 0.494967172977928
+At epoch 2, Objective function value = 0.475851207556884
+At epoch 3, Objective function value = 0.468066300093036
+At epoch 4, Objective function value = 0.46458699034486056
+At epoch 5, Objective function value = 0.46306378613918137
+At epoch 6, Objective function value = 0.4625092786809101
+At epoch 7, Objective function value = 0.4624537618916934
+At epoch 8, Objective function value = 0.4626560480843731
+At epoch 9, Objective function value = 0.46298610601900114
+At epoch 10, Objective function value = 0.46337178837533477
+At epoch 11, Objective function value = 0.46377261494462796
+At epoch 12, Objective function value = 0.46416605484655277
+At epoch 13, Objective function value = 0.4645399990841731
+At epoch 14, Objective function value = 0.46488847402815897
+At epoch 15, Objective function value = 0.4652091298888645
+At epoch 16, Objective function value = 0.46550173774151143
+At epoch 17, Objective function value = 0.4657672770449902
+At epoch 18, Objective function value = 0.4660073773300963
+At epoch 19, Objective function value = 0.466223976381518
+At epoch 20, Objective function value = 0.4664191126520985
+At epoch 21, Objective function value = 0.4665948017112959
+At epoch 22, Objective function value = 0.46675296556248086
+At epoch 23, Objective function value = 0.46689539521269013
+At epoch 24, Objective function value = 0.4670237340192077
+At epoch 25, Objective function value = 0.46713947382303
+At epoch 26, Objective function value = 0.4672439587342965
+At epoch 27, Objective function value = 0.46733839327117166
+At epoch 28, Objective function value = 0.4674238527443002
+At epoch 29, Objective function value = 0.4675012945551337
+At epoch 30, Objective function value = 0.46757156958372986
+At epoch 31, Objective function value = 0.4676354331730958
+At epoch 32, Objective function value = 0.467693555432842
+At epoch 33, Objective function value = 0.4677465307240613
+At epoch 34, Objective function value = 0.46779488627577626
+At epoch 35, Objective function value = 0.46783908993811474
+At epoch 36, Objective function value = 0.4678795571099918
+At epoch 37, Objective function value = 0.4679166568971366
+At epoch 38, Objective function value = 0.46795071756490364
+At epoch 39, Objective function value = 0.46798203135290134
+At epoch 40, Objective function value = 0.46801085871732945
+At epoch 41, Objective function value = 0.46803743206357523
+At epoch 42, Objective function value = 0.4680619590270937
+At epoch 43, Objective function value = 0.4680846253555148
+At epoch 44, Objective function value = 0.4681055974397366
+At epoch 45, Objective function value = 0.4681250245366984
+At epoch 46, Objective function value = 0.4681430407217584
+At epoch 47, Objective function value = 0.46815976660419745
+At epoch 48, Objective function value = 0.46817531083535757
+At epoch 49, Objective function value = 0.46818977143532725
+At epoch 50, Objective function value = 0.46820323696087046
+At epoch 51, Objective function value = 0.4682157875344476
+At epoch 52, Objective function value = 0.4682274957516731
+At epoch 53, Objective function value = 0.4682384274823419
+At epoch 54, Objective function value = 0.46824864257823295
+At epoch 55, Objective function value = 0.4682581954992048
+At epoch 56, Objective function value = 0.4682671358676288
+At epoch 57, Objective function value = 0.4682755089599225
+At epoch 58, Objective function value = 0.46828335614282524
+At epoch 59, Objective function value = 0.46829071526109145
+At epoch 60, Objective function value = 0.46829762098242456
+At epoch 61, Objective function value = 0.4683041051047465
+At epoch 62, Objective function value = 0.4683101968302496
+At epoch 63, Objective function value = 0.4683159230101318
+At epoch 64, Objective function value = 0.4683213083634187
+At epoch 65, Objective function value = 0.46832637567286817
+At epoch 66, Objective function value = 0.46833114596057535
+At epoch 67, Objective function value = 0.46833563864558114
+At epoch 68, Objective function value = 0.46833987168550667
+At epoch 69, Objective function value = 0.4683438617039949
+At epoch 70, Objective function value = 0.4683476241055229
+At epoch 71, Objective function value = 0.4683511731789687
+At epoch 72, Objective function value = 0.46835452219114876
+At epoch 73, Objective function value = 0.4683576834714047
+At epoch 74, Objective function value = 0.46836066848818636
+At epoch 75, Objective function value = 0.46836348791847726
+At epoch 76, Objective function value = 0.46836615171080587
+At epoch 77, Objective function value = 0.46836866914250563
+At epoch 78, Objective function value = 0.46837104887180925
+At epoch 79, Objective function value = 0.4683732989853007
+At epoch 80, Objective function value = 0.4683754270411894
+At epoch 81, Objective function value = 0.4683774401088187
+At epoch 82, Objective function value = 0.46837934480477966
+At epoch 83, Objective function value = 0.4683811473259572
+At epoch 84, Objective function value = 0.46838285347980446
+At epoch 85, Objective function value = 0.46838446871210715
+At epoch 86, Objective function value = 0.46838599813247495
+At epoch 87, Objective function value = 0.4683874465377695
+At epoch 88, Objective function value = 0.4683888184336587
+At epoch 89, Objective function value = 0.46839011805447084
+At epoch 90, Objective function value = 0.4683913493814952
+At epoch 91, Objective function value = 0.4683925161598732
+At epoch 92, Objective function value = 0.46839362191420103
+At epoch 93, Objective function value = 0.46839466996295515
+At epoch 94, Objective function value = 0.468395663431845
+At epoch 95, Objective function value = 0.46839660526618065
+At epoch 96, Objective function value = 0.46839749824233984
+At epoch 97, Objective function value = 0.4683983449784106
+At epoch 98, Objective function value = 0.46839914794407433
+At epoch 99, Objective function value = 0.4683999094697927
 </pre>
 </div>
 </div>
@@ -15775,7 +15761,7 @@ At epoch 99, Objective function value = 0.46338541564778984
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="mi">4</span>
@@ -15789,7 +15775,7 @@ At epoch 99, Objective function value = 0.46338541564778984
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#SGD with q = 1</span>
@@ -15811,7 +15797,7 @@ At epoch 99, Objective function value = 0.46338541564778984
     <span class="n">ps</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">qi</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">q</span><span class="p">):</span>
-            <span class="n">l</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">gd</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span><span class="n">lam</span><span class="p">)</span>
+            <span class="n">l</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">sgd</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span><span class="n">lam</span><span class="p">)</span>
         <span class="n">p</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">return_p</span><span class="p">()</span> 
         <span class="n">losses</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
         <span class="n">ps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
@@ -15841,106 +15827,106 @@ At epoch 99, Objective function value = 0.46338541564778984
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>At epoch 0, Objective function value = 0.67151045442937
-At epoch 1, Objective function value = 0.6280467149687894
-At epoch 2, Objective function value = 0.5963092066343679
-At epoch 3, Objective function value = 0.5725635569723901
-At epoch 4, Objective function value = 0.5543732187291126
-At epoch 5, Objective function value = 0.5401456123450104
-At epoch 6, Objective function value = 0.528818517911527
-At epoch 7, Objective function value = 0.5196647921155385
-At epoch 8, Objective function value = 0.5121734003666621
-At epoch 9, Objective function value = 0.5059762800279425
-At epoch 10, Objective function value = 0.5008024321358436
-At epoch 11, Objective function value = 0.4964483865418017
-At epoch 12, Objective function value = 0.4927587206450023
-At epoch 13, Objective function value = 0.4896128993522912
-At epoch 14, Objective function value = 0.48691618577885526
-At epoch 15, Objective function value = 0.48459323438670093
-At epoch 16, Objective function value = 0.4825834902863522
-At epoch 17, Objective function value = 0.4808378292692232
-At epoch 18, Objective function value = 0.47931606603039056
-At epoch 19, Objective function value = 0.4779850803014615
-At epoch 20, Objective function value = 0.4768173896764103
-At epoch 21, Objective function value = 0.4757900500160725
-At epoch 22, Objective function value = 0.47488379926449703
-At epoch 23, Objective function value = 0.47408238434061106
-At epoch 24, Objective function value = 0.4733720272698485
-At epoch 25, Objective function value = 0.47274099831151273
-At epoch 26, Objective function value = 0.47217927208931854
-At epoch 27, Objective function value = 0.47167824868061425
-At epoch 28, Objective function value = 0.4712305259576375
-At epoch 29, Objective function value = 0.47082971267234436
-At epoch 30, Objective function value = 0.4704702741584794
-At epoch 31, Objective function value = 0.4701474043158869
-At epoch 32, Objective function value = 0.46985691890124004
-At epoch 33, Objective function value = 0.46959516618934727
-At epoch 34, Objective function value = 0.4693589518712584
-At epoch 35, Objective function value = 0.4691454756785627
-At epoch 36, Objective function value = 0.46895227771084647
-At epoch 37, Objective function value = 0.46877719282727937
-At epoch 38, Objective function value = 0.4686183117675947
-At epoch 39, Objective function value = 0.4684739479103
-At epoch 40, Objective function value = 0.4683426087703607
-At epoch 41, Objective function value = 0.46822297149524644
-At epoch 42, Objective function value = 0.4681138617450513
-At epoch 43, Objective function value = 0.4680142354455764
-At epoch 44, Objective function value = 0.4679231629875533
-At epoch 45, Objective function value = 0.467839815514356
-At epoch 46, Objective function value = 0.4677634529975247
-At epoch 47, Objective function value = 0.4676934138465361
-At epoch 48, Objective function value = 0.4676291058383558
-At epoch 49, Objective function value = 0.46756999818486217
-At epoch 50, Objective function value = 0.46751561458343666
-At epoch 51, Objective function value = 0.4674655271188015
-At epoch 52, Objective function value = 0.46741935090335646
-At epoch 53, Objective function value = 0.4673767393594091
-At epoch 54, Objective function value = 0.46733738006034586
-At epoch 55, Objective function value = 0.46730099105936507
-At epoch 56, Objective function value = 0.46726731764421287
-At epoch 57, Objective function value = 0.4672361294647408
-At epoch 58, Objective function value = 0.46720721798724363
-At epoch 59, Objective function value = 0.4671803942356468
-At epoch 60, Objective function value = 0.4671554867848572
-At epoch 61, Objective function value = 0.4671323399760861
-At epoch 62, Objective function value = 0.4671108123278308
-At epoch 63, Objective function value = 0.4670907751195396
-At epoch 64, Objective function value = 0.46707211112787456
-At epoch 65, Objective function value = 0.4670547134979801
-At epoch 66, Objective function value = 0.46703848473433623
-At epoch 67, Objective function value = 0.4670233357976493
-At epoch 68, Objective function value = 0.46700918529587737
-At epoch 69, Objective function value = 0.46699595875890265
-At epoch 70, Objective function value = 0.46698358798761586
-At epoch 71, Objective function value = 0.4669720104692555
-At epoch 72, Objective function value = 0.46696116885180144
-At epoch 73, Objective function value = 0.4669510104710485
-At epoch 74, Objective function value = 0.4669414869247231
-At epoch 75, Objective function value = 0.4669325536886399
-At epoch 76, Objective function value = 0.4669241697704643
-At epoch 77, Objective function value = 0.46691629739714147
-At epoch 78, Objective function value = 0.4669089017324898
-At epoch 79, Objective function value = 0.4669019506218445
-At epoch 80, Objective function value = 0.46689541436097404
-At epoch 81, Objective function value = 0.46688926548680065
-At epoch 82, Objective function value = 0.4668834785877146
-At epoch 83, Objective function value = 0.46687803013151685
-At epoch 84, Objective function value = 0.46687289830922646
-At epoch 85, Objective function value = 0.46686806289318367
-At epoch 86, Objective function value = 0.4668635051080359
-At epoch 87, Objective function value = 0.4668592075133498
-At epoch 88, Objective function value = 0.466855153896716
-At epoch 89, Objective function value = 0.46685132917633587
-At epoch 90, Objective function value = 0.46684771931217733
-At epoch 91, Objective function value = 0.46684431122488723
-At epoch 92, Objective function value = 0.46684109272172136
-At epoch 93, Objective function value = 0.4668380524288357
-At epoch 94, Objective function value = 0.4668351797293424
-At epoch 95, Objective function value = 0.4668324647065968
-At epoch 96, Objective function value = 0.4668298980922336
-At epoch 97, Objective function value = 0.46682747121851553
-At epoch 98, Objective function value = 0.46682517597460543
-At epoch 99, Objective function value = 0.4668230047664053
+<pre>At epoch 0, Objective function value = 0.520799745988461
+At epoch 1, Objective function value = 0.508749851279566
+At epoch 2, Objective function value = 0.5172917038429568
+At epoch 3, Objective function value = 0.509140799409214
+At epoch 4, Objective function value = 0.5131501315415659
+At epoch 5, Objective function value = 0.5070997334107942
+At epoch 6, Objective function value = 0.5038276370121312
+At epoch 7, Objective function value = 0.5000695929323818
+At epoch 8, Objective function value = 0.49839903112537387
+At epoch 9, Objective function value = 0.4958800470046205
+At epoch 10, Objective function value = 0.49381523806652383
+At epoch 11, Objective function value = 0.4938382791160667
+At epoch 12, Objective function value = 0.4940021463182858
+At epoch 13, Objective function value = 0.4914399312765527
+At epoch 14, Objective function value = 0.4912835340080564
+At epoch 15, Objective function value = 0.4892257180880021
+At epoch 16, Objective function value = 0.4893794469932659
+At epoch 17, Objective function value = 0.4890254784553769
+At epoch 18, Objective function value = 0.4872804659671273
+At epoch 19, Objective function value = 0.4857208933629622
+At epoch 20, Objective function value = 0.48417926776064846
+At epoch 21, Objective function value = 0.483359822275159
+At epoch 22, Objective function value = 0.4823039435746104
+At epoch 23, Objective function value = 0.48219953827973794
+At epoch 24, Objective function value = 0.480502808752256
+At epoch 25, Objective function value = 0.481634742477715
+At epoch 26, Objective function value = 0.47992170164948666
+At epoch 27, Objective function value = 0.47697876834409675
+At epoch 28, Objective function value = 0.4788642029789236
+At epoch 29, Objective function value = 0.47652428713736145
+At epoch 30, Objective function value = 0.47731337462962
+At epoch 31, Objective function value = 0.4767939123938778
+At epoch 32, Objective function value = 0.47600549722736046
+At epoch 33, Objective function value = 0.47524760760407275
+At epoch 34, Objective function value = 0.47519588006821334
+At epoch 35, Objective function value = 0.47428792351493315
+At epoch 36, Objective function value = 0.47355512001531574
+At epoch 37, Objective function value = 0.473684182826522
+At epoch 38, Objective function value = 0.47348440645713075
+At epoch 39, Objective function value = 0.47220141073780153
+At epoch 40, Objective function value = 0.47230796082217524
+At epoch 41, Objective function value = 0.4715559044980405
+At epoch 42, Objective function value = 0.47133165586376347
+At epoch 43, Objective function value = 0.4710674151433886
+At epoch 44, Objective function value = 0.47097906530673517
+At epoch 45, Objective function value = 0.47075777470050334
+At epoch 46, Objective function value = 0.4704331147565582
+At epoch 47, Objective function value = 0.4700074198887166
+At epoch 48, Objective function value = 0.46987553774116814
+At epoch 49, Objective function value = 0.46959472297430815
+At epoch 50, Objective function value = 0.4692779671662059
+At epoch 51, Objective function value = 0.4691707513133749
+At epoch 52, Objective function value = 0.4689206836417175
+At epoch 53, Objective function value = 0.4686222236202773
+At epoch 54, Objective function value = 0.4684428814032516
+At epoch 55, Objective function value = 0.46829034954608867
+At epoch 56, Objective function value = 0.467974715149923
+At epoch 57, Objective function value = 0.4678708508750161
+At epoch 58, Objective function value = 0.4678359835504836
+At epoch 59, Objective function value = 0.4676823325385765
+At epoch 60, Objective function value = 0.4674687819690087
+At epoch 61, Objective function value = 0.46734029086091017
+At epoch 62, Objective function value = 0.46723279592452344
+At epoch 63, Objective function value = 0.4671316881381319
+At epoch 64, Objective function value = 0.466963636035346
+At epoch 65, Objective function value = 0.4668447169435503
+At epoch 66, Objective function value = 0.46672861329305315
+At epoch 67, Objective function value = 0.4666374130503518
+At epoch 68, Objective function value = 0.46654356499306615
+At epoch 69, Objective function value = 0.46646571766999384
+At epoch 70, Objective function value = 0.46634902506737247
+At epoch 71, Objective function value = 0.4662753463156624
+At epoch 72, Objective function value = 0.46621146295426
+At epoch 73, Objective function value = 0.4661388656245588
+At epoch 74, Objective function value = 0.4660492708759984
+At epoch 75, Objective function value = 0.46598304526797696
+At epoch 76, Objective function value = 0.4659138467146322
+At epoch 77, Objective function value = 0.46586445049210395
+At epoch 78, Objective function value = 0.46580551219302324
+At epoch 79, Objective function value = 0.4657462419596955
+At epoch 80, Objective function value = 0.46569411391811755
+At epoch 81, Objective function value = 0.46563751071980697
+At epoch 82, Objective function value = 0.4655904555128505
+At epoch 83, Objective function value = 0.4655475491752924
+At epoch 84, Objective function value = 0.4654947129267663
+At epoch 85, Objective function value = 0.4654572533048317
+At epoch 86, Objective function value = 0.4654167998028392
+At epoch 87, Objective function value = 0.4653770222707703
+At epoch 88, Objective function value = 0.46534256121856593
+At epoch 89, Objective function value = 0.4653019989851396
+At epoch 90, Objective function value = 0.465273724174496
+At epoch 91, Objective function value = 0.4652381880601042
+At epoch 92, Objective function value = 0.46521139705480025
+At epoch 93, Objective function value = 0.4651839623666618
+At epoch 94, Objective function value = 0.4651586368329902
+At epoch 95, Objective function value = 0.46513083895288526
+At epoch 96, Objective function value = 0.465107096973193
+At epoch 97, Objective function value = 0.4650839346954279
+At epoch 98, Objective function value = 0.4650609633596219
+At epoch 99, Objective function value = 0.4650410375868933
 </pre>
 </div>
 </div>
@@ -15951,7 +15937,7 @@ At epoch 99, Objective function value = 0.4668230047664053
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="mi">4</span>
@@ -15965,7 +15951,7 @@ At epoch 99, Objective function value = 0.4668230047664053
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#SGD with q = 8</span>
@@ -15987,7 +15973,7 @@ At epoch 99, Objective function value = 0.4668230047664053
     <span class="n">ps</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">qi</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">q</span><span class="p">):</span>
-            <span class="n">l</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">gd</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span><span class="n">lam</span><span class="p">)</span>
+            <span class="n">l</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">sgd</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span><span class="n">lam</span><span class="p">)</span>
         <span class="n">p</span> <span class="o">=</span> <span class="n">workers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">return_p</span><span class="p">()</span> 
         <span class="n">losses</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
         <span class="n">ps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
@@ -16016,106 +16002,106 @@ At epoch 99, Objective function value = 0.4668230047664053
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>At epoch 0, Objective function value = 0.559034195415556
-At epoch 1, Objective function value = 0.49182009367343654
-At epoch 2, Objective function value = 0.47289362159596526
-At epoch 3, Objective function value = 0.46537304920312283
-At epoch 4, Objective function value = 0.46207728944543375
-At epoch 5, Objective function value = 0.46065348761272173
-At epoch 6, Objective function value = 0.46013224459149427
-At epoch 7, Objective function value = 0.4600610664568753
-At epoch 8, Objective function value = 0.46021227895145295
-At epoch 9, Objective function value = 0.4604661040828121
-At epoch 10, Objective function value = 0.4607581727273364
-At epoch 11, Objective function value = 0.46105393791537197
-At epoch 12, Objective function value = 0.46133540912288096
-At epoch 13, Objective function value = 0.46159394729510894
-At epoch 14, Objective function value = 0.46182621406250524
-At epoch 15, Objective function value = 0.46203183788015934
-At epoch 16, Objective function value = 0.4622120485885007
-At epoch 17, Objective function value = 0.4623688735241604
-At epoch 18, Objective function value = 0.46250466604563023
-At epoch 19, Objective function value = 0.46262183363977155
-At epoch 20, Objective function value = 0.46272268678905376
-At epoch 21, Objective function value = 0.46280936097504616
-At epoch 22, Objective function value = 0.4628837826586035
-At epoch 23, Objective function value = 0.4629476612303194
-At epoch 24, Objective function value = 0.46300249577204994
-At epoch 25, Objective function value = 0.4630495897269257
-At epoch 26, Objective function value = 0.4630900692449225
-At epoch 27, Objective function value = 0.463124902654008
-At epoch 28, Objective function value = 0.46315491956902116
-At epoch 29, Objective function value = 0.46318082881848854
-At epoch 30, Objective function value = 0.4632032347859491
-At epoch 31, Objective function value = 0.46322265201750423
-At epoch 32, Objective function value = 0.4632395180992434
-At epoch 33, Objective function value = 0.46325420489429525
-At epoch 34, Objective function value = 0.4632670282737715
-At epoch 35, Objective function value = 0.46327825649452353
-At epoch 36, Objective function value = 0.4632881173795931
-At epoch 37, Objective function value = 0.46329680445109406
-At epoch 38, Objective function value = 0.46330448215420755
-At epoch 39, Objective function value = 0.4633112902976432
-At epoch 40, Objective function value = 0.4633173478219695
-At epoch 41, Objective function value = 0.46332275599358663
-At epoch 42, Objective function value = 0.46332760110936966
-At epoch 43, Objective function value = 0.4633319567853993
-At epoch 44, Objective function value = 0.46333588589283575
-At epoch 45, Objective function value = 0.4633394421948509
-At epoch 46, Objective function value = 0.46334267173057775
-At epoch 47, Objective function value = 0.4633456139851402
-At epoch 48, Objective function value = 0.4633483028789071
-At epoch 49, Objective function value = 0.4633507676040391
-At epoch 50, Objective function value = 0.46335303333207184
-At epoch 51, Objective function value = 0.4633551218126067
-At epoch 52, Objective function value = 0.46335705188005194
-At epoch 53, Objective function value = 0.46335883988272414
-At epoch 54, Objective function value = 0.46336050004637735
-At epoch 55, Objective function value = 0.46336204478234516
-At epoch 56, Objective function value = 0.46336348494888574
-At epoch 57, Objective function value = 0.46336483007297596
-At epoch 58, Objective function value = 0.4633660885386665
-At epoch 59, Objective function value = 0.4633672677471586
-At epoch 60, Objective function value = 0.46336837425295047
-At epoch 61, Objective function value = 0.46336941387973174
-At epoch 62, Objective function value = 0.4633703918191252
-At epoch 63, Objective function value = 0.4633713127148957
-At epoch 64, Objective function value = 0.4633721807348414
-At epoch 65, Objective function value = 0.46337299963223616
-At epoch 66, Objective function value = 0.46337377279840514
-At epoch 67, Objective function value = 0.4633745033077723
-At epoch 68, Objective function value = 0.4633751939565099
-At epoch 69, Objective function value = 0.46337584729574977
-At epoch 70, Objective function value = 0.46337646566016705
-At epoch 71, Objective function value = 0.46337705119262185
-At epoch 72, Objective function value = 0.46337760586544685
-At epoch 73, Objective function value = 0.46337813149886686
-At epoch 74, Objective function value = 0.4633786297769781
-At epoch 75, Objective function value = 0.4633791022616353
-At epoch 76, Objective function value = 0.4633795504045542
-At epoch 77, Objective function value = 0.46337997555788296
-At epoch 78, Objective function value = 0.4633803789834626
-At epoch 79, Objective function value = 0.4633807618609602
-At epoch 80, Objective function value = 0.4633811252950342
-At epoch 81, Objective function value = 0.4633814703216665
-At epoch 82, Objective function value = 0.4633817979137742
-At epoch 83, Objective function value = 0.46338210898620114
-At epoch 84, Objective function value = 0.46338240440017103
-At epoch 85, Objective function value = 0.4633826849672737
-At epoch 86, Objective function value = 0.46338295145304614
-At epoch 87, Objective function value = 0.46338320458019927
-At epoch 88, Objective function value = 0.46338344503153645
-At epoch 89, Objective function value = 0.46338367345260156
-At epoch 90, Objective function value = 0.4633838904540883
-At epoch 91, Objective function value = 0.4633840966140416
-At epoch 92, Objective function value = 0.4633842924798729
-At epoch 93, Objective function value = 0.463384478570212
-At epoch 94, Objective function value = 0.46338465537661283
-At epoch 95, Objective function value = 0.46338482336512904
-At epoch 96, Objective function value = 0.4633849829777737
-At epoch 97, Objective function value = 0.4633851346338734
-At epoch 98, Objective function value = 0.4633852787313288
-At epoch 99, Objective function value = 0.46338541564778984
+<pre>At epoch 0, Objective function value = 0.49765020574468044
+At epoch 1, Objective function value = 0.4978720081273967
+At epoch 2, Objective function value = 0.48724574000148674
+At epoch 3, Objective function value = 0.4954553797317704
+At epoch 4, Objective function value = 0.483385488222325
+At epoch 5, Objective function value = 0.48544561032450806
+At epoch 6, Objective function value = 0.47766252508821083
+At epoch 7, Objective function value = 0.4857256042114827
+At epoch 8, Objective function value = 0.48297159021491953
+At epoch 9, Objective function value = 0.4801847641635988
+At epoch 10, Objective function value = 0.4754388819703851
+At epoch 11, Objective function value = 0.4783607735494301
+At epoch 12, Objective function value = 0.4702732260439709
+At epoch 13, Objective function value = 0.47094061089718287
+At epoch 14, Objective function value = 0.4700448619772056
+At epoch 15, Objective function value = 0.4689617576781946
+At epoch 16, Objective function value = 0.4673588303948428
+At epoch 17, Objective function value = 0.4663780350958437
+At epoch 18, Objective function value = 0.4648956370542913
+At epoch 19, Objective function value = 0.4634744715068203
+At epoch 20, Objective function value = 0.46265368285135106
+At epoch 21, Objective function value = 0.4616352644304633
+At epoch 22, Objective function value = 0.45959194584020924
+At epoch 23, Objective function value = 0.45830155412638235
+At epoch 24, Objective function value = 0.45816054457498306
+At epoch 25, Objective function value = 0.4576889662519195
+At epoch 26, Objective function value = 0.45621595254591985
+At epoch 27, Objective function value = 0.4541479272732846
+At epoch 28, Objective function value = 0.4550160727395082
+At epoch 29, Objective function value = 0.453455616654809
+At epoch 30, Objective function value = 0.4527925963981867
+At epoch 31, Objective function value = 0.4530481821554299
+At epoch 32, Objective function value = 0.4525907850390553
+At epoch 33, Objective function value = 0.4525213355721649
+At epoch 34, Objective function value = 0.4515914804867281
+At epoch 35, Objective function value = 0.4512623081315858
+At epoch 36, Objective function value = 0.45100744123188924
+At epoch 37, Objective function value = 0.45061480160509143
+At epoch 38, Objective function value = 0.4496004228669411
+At epoch 39, Objective function value = 0.4501126758405952
+At epoch 40, Objective function value = 0.45006549562119647
+At epoch 41, Objective function value = 0.44974829793219095
+At epoch 42, Objective function value = 0.4496119620719562
+At epoch 43, Objective function value = 0.4495722152653471
+At epoch 44, Objective function value = 0.44967732070696326
+At epoch 45, Objective function value = 0.4494329389892343
+At epoch 46, Objective function value = 0.449515219018982
+At epoch 47, Objective function value = 0.4496427973969535
+At epoch 48, Objective function value = 0.4497108477935883
+At epoch 49, Objective function value = 0.44994107212554063
+At epoch 50, Objective function value = 0.44981959826931245
+At epoch 51, Objective function value = 0.4501469635857184
+At epoch 52, Objective function value = 0.4503526911007034
+At epoch 53, Objective function value = 0.45052969901571505
+At epoch 54, Objective function value = 0.45075203095857325
+At epoch 55, Objective function value = 0.451023014137859
+At epoch 56, Objective function value = 0.4513646184880812
+At epoch 57, Objective function value = 0.45157482610836097
+At epoch 58, Objective function value = 0.45188760234108544
+At epoch 59, Objective function value = 0.45219569233458545
+At epoch 60, Objective function value = 0.4524752549257227
+At epoch 61, Objective function value = 0.4527824558487943
+At epoch 62, Objective function value = 0.45312051636221357
+At epoch 63, Objective function value = 0.45345867696305403
+At epoch 64, Objective function value = 0.45383279238590823
+At epoch 65, Objective function value = 0.45412515487912486
+At epoch 66, Objective function value = 0.45446877919180884
+At epoch 67, Objective function value = 0.45483197369379
+At epoch 68, Objective function value = 0.4551381349558346
+At epoch 69, Objective function value = 0.4554568585346304
+At epoch 70, Objective function value = 0.455747950165942
+At epoch 71, Objective function value = 0.456116256425456
+At epoch 72, Objective function value = 0.4564026993520345
+At epoch 73, Objective function value = 0.4566855216654834
+At epoch 74, Objective function value = 0.4569993058670715
+At epoch 75, Objective function value = 0.4572743699512482
+At epoch 76, Objective function value = 0.4575502655677764
+At epoch 77, Objective function value = 0.4578386566792795
+At epoch 78, Objective function value = 0.45811133535349596
+At epoch 79, Objective function value = 0.45835754390365313
+At epoch 80, Objective function value = 0.4586151507738343
+At epoch 81, Objective function value = 0.4588387359405071
+At epoch 82, Objective function value = 0.45908581101168716
+At epoch 83, Objective function value = 0.45929965869067935
+At epoch 84, Objective function value = 0.4595012818924162
+At epoch 85, Objective function value = 0.45971708922546645
+At epoch 86, Objective function value = 0.4598998139575658
+At epoch 87, Objective function value = 0.46010598750583803
+At epoch 88, Objective function value = 0.46026935445902384
+At epoch 89, Objective function value = 0.4604459198783756
+At epoch 90, Objective function value = 0.46061577304075013
+At epoch 91, Objective function value = 0.46077610356383986
+At epoch 92, Objective function value = 0.4609164508276976
+At epoch 93, Objective function value = 0.46106558343457854
+At epoch 94, Objective function value = 0.46120552063575104
+At epoch 95, Objective function value = 0.46134213748605535
+At epoch 96, Objective function value = 0.4614663802984556
+At epoch 97, Objective function value = 0.461576490325073
+At epoch 98, Objective function value = 0.46169060400081385
+At epoch 99, Objective function value = 0.4618024199500361
 </pre>
 </div>
 </div>
@@ -16126,7 +16112,7 @@ At epoch 99, Objective function value = 0.46338541564778984
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -16167,7 +16153,7 @@ At epoch 99, Objective function value = 0.46338541564778984
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,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5umnn+bAgQMB+ml8d+7cOf72t79x9dVXU79+fWrVqkW7du34/e9/79N28hWF33bUVdXjIvIRzkric/x13aogfw/q6JmjAYzEmKpJVZk+fTrTp08nOzubrl27MnLkSKKiojh16hRffvklL774InPmzOGll17igQceKHB+nz59iIuLA+DMmTMcOnSIDRs2sHz5cp544gni4+N5/HFPW9QFVmZmJv3792fDhg20bduWO+64g7CwMD777DNefPFF/vnPf7Jx40bat28f6FC95u8t308C0X6+ZqV3ScQlud8fPHWQlBSlbl3b990Yf5k+fTrx8fE0b96ct956i9jY2CJtjh49yty5czl58mSRz+Li4opsXKiqLF68mHvvvZdJkyYBVOgk9d5777Fhwwb69+/Pxx9/TFBQ3gDZE088wfTp03n22Wd54403Ahilb/xWZi4i1YFBgI1hFbLyw9oEZTjb6KZnpvPI1BMezjDGeOvHH39k5syZhIaGsnz5crfJCaBhw4Y8+eSTPProo15dV0S45ZZbWLRoEQDTpk3j0KFDXse1atUqevXqlbuF/LBhw9i1axdjx45FREhKSvL6Wt748ccfAbjhhhsKJCeAoUOHAnDs2DG/3rO8+bKj7q+KeY0WkcnAdqANUO6bAFY2589D9smmue9//LnyjGkbU9HNmzePzMxMbr31Vjp06OCxvbvt2UvSt29fevbsSXp6OosXL/bqnEWLFnH99dezdetWbrvtNsaNG8fx48e59tpr2bNnj0/391bOz758+XKys7MLfPbhhx8CMGCAp2LsisWX/1ILKb6EPKe8/G1gclmDqmqaNgVSm0L97wD46eQB4IqAxmQuAu53xql4StwD1bMNGzYA0K9f+e1LGhcXR2JiIlu2bCny/Kqw06dPM27cOIKCgvjkk0/o3r177mcPPfQQc+fOdXve3LlzSUlJ8Tqmzp07M2zYsNz3N9xwAzfffDOLFy/miiuuYMCAAYSGhrJt2zYSExMZP348Dz74oNfXrwh8SVC/LeZ4NnAC2KqqP5U9pKqnaVPgVF4P6mi69aCM8ZfDhw8D0LRp0yKfJSUlMX/+/ALH6taty8SJE326R861vRkiW7p0KcnJyYwePbpAcgKnanDevHlun4PNnTvXp0q7MWPGFEhQIsKiRYuYPn06M2bM4Jtvvsn9rH///vzqV78iODjY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
+<img src="data:image/png;base64,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8vLLL/POO++UYys948kcVLGMMVWxtoPXDSWcpKRAhw7WEvPgYLil3HanUqry2bt3L9OmTSMwMJBly5a5DE4A9erV44UXXmD8+PFu1WuMYdCgQSxatAiAKVOmcPjwYbfbtWLFCrp370716tUJCwtjwIAB7Nq1ixEjRmCMISUlxe263LF3714A+vbt6xCcAPr37w/A8csslY0nO+r+uYjXcGPMRGAz0AJre3VVQEgIbNlycS+oAwesbBJKqbKbP38+OTk5DB48mNatW5dYvkoVzwaOevToQbdu3Th37hyLFy9265pFixZx++23s3HjRu655x4efvhhTp48yc0330xycrJH93eX/bMvW7aMPKeHLb/66isAevUqaTF2xeLJf6mFFL2E3L68/L/AxLI2qrIJC3PMJnH2LKSlQWho+bZLVXKXSz6tMv61lpSUBMAtPhyaiImJITExkQ0bNhSav3KWmZnJww8/jJ+fH2vXrqVz587555588klmzZrl8rpZs2aRlpbmdpvat2/PgAED8t/37duXu+++m8WLF3PDDTfQq1cvAgMD2bRpE4mJiYwePZrHH3/c7forAk8C1ENFHM8DTgEbReRg2ZtU+RgDjRrBnj0Xjx04oAFKKW84cuQIAA0aNCh0LiUlhQULFjgcq127NmPHjvXoHva63RkiW7JkCampqQwfPtwhOIG1anD+/Pku58FmzZrl0Uq72NhYhwBljGHRokVMnTqV559/nh07duSf69mzJ3/+85/x9/d3u/6KwO0AJSJv+7IhlV3Dho4B6uBBaNu2/NqjrgBXyDiy2D6nq71UU1JSmDJlisOxJk2aeBygiruHs82bNwPWykBntWrVon379iQkJLhsa1mcO3eO4cOHs2zZMl5//XX69+9PcHAwSUlJPPHEE0RFRfHJJ5/kz0ddDry2SEIVr1Ejx/cHDpRPO5SqbCIiIgBcPq8UExODiCAiZGdnl/oehw4dAuAq5+0JXLD3jurXr+/yfHh4eKnbUZwZM2bwySefMH36dB5++GHCw8OpWbMmvXv3ZtGiRWRnZzNmzBif3NtXNFnsJdKwoeN7DVBKeUfXrl2Jj49n5cqVjBw50if3iI+PB6BLly4llq1l26rg6NGjLs/bhySdlXUOyr4QokePHoXKtmvXjrCwMPbt28fJkyepU6eO2/cpT0UGKGNMNqXLqyciElT6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
 "
 >
 </div>
